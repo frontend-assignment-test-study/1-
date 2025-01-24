@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  height: 60px;
+  background-color: rgb(40, 40, 40);
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+.navbar__title {
+  margin: 0px 20px;
+}
+main {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Special Elite", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  margin-top: 170px;
+  margin-right: 10em;
+  margin-left: 10em;
+  margin-bottom: 5em;
+}
+.title {
+  text-align: center;
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+p {
+  font-size: 1.2em;
+  margin: 20px 0px;
+  line-height: 1.5em;
+  cursor: default;
+}
+.blurred {
+  /* 여기에 요구 사항을 충족 시키기 위한 코드를 작성해 주세요. */
+}
+.list-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 1em;
+}
+button {
+  padding: 1em 1.3em;
+  margin: 0.5em 0em;
+  border-radius: 1.5em;
+  border: none;
+  background-color: #4169e1;
+  color: #fff;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #315399;
+}
