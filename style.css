@@ -53,6 +53,7 @@ p {
 }
 .blurred {
   /* 여기에 요구 사항을 충족 시키기 위한 코드를 작성해 주세요. */
+  filter: blur(5px);
 }
 .list-btn {
   display: flex;
@@ -73,5 +74,8 @@ button {
   cursor: pointer;
 }
 button:hover {
+  background-color: #315399;
+}
+button#onclick {
   background-color: #315399;
 }
